@@ -13,6 +13,17 @@ hunter_add_version(
     PACKAGE_NAME
     dlib
     VERSION
+    "19.6-fix1"
+    URL
+    "https://github.com/headupinclouds/dlib/archive/19.6-fix1.tar.gz"
+    SHA1
+    c7540fcdf0484c724b06e916b9fe386fe531788d
+)
+
+hunter_add_version(
+    PACKAGE_NAME
+    dlib
+    VERSION
     "19.6-p1"
     URL
     "https://github.com/hunter-packages/dlib/archive/v19.6-p1.tar.gz"
