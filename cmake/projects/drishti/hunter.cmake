@@ -29,6 +29,17 @@ hunter_add_version(
     "https://github.com/elucideye/drishti/archive/v0.8.6.tar.gz"
     SHA1
     180161389f017719380f344e09f76fd1cdae609d
+    )
+
+hunter_add_version(
+    PACKAGE_NAME
+    drishti
+    VERSION
+    0.8.7
+    URL
+    "https://github.com/elucideye/drishti/archive/v0.8.7.tar.gz"
+    SHA1
+    5171c2ef13b5ca5c127d618e2e3c9dbe67667595
 )
 
 hunter_cmake_args(drishti CMAKE_ARGS DRISHTI_BUILD_EXAMPLES=NO)
