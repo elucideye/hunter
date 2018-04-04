@@ -14,11 +14,11 @@ hunter_add_version(
     PACKAGE_NAME
     acf
     VERSION
-    0.0.1
+    0.1.0
     URL
-    "https://github.com/elucideye/acf/archive/v0.0.1.tar.gz"
+    "https://github.com/elucideye/acf/archive/v0.1.0.tar.gz"
     SHA1
-    985bd3005b14120625e3684a8596d499bfc23a48
+    a77ff183da62dffabd522ed5d709ba702ff4e132
     )
 
 hunter_add_version(
@@ -30,6 +30,17 @@ hunter_add_version(
     "https://github.com/elucideye/acf/archive/v0.0.2.tar.gz"
     SHA1
     0b2c6a2584539f1825eabc928e4b2abc7d16bbac
+    )
+
+hunter_add_version(
+    PACKAGE_NAME
+    acf
+    VERSION
+    0.0.1
+    URL
+    "https://github.com/elucideye/acf/archive/v0.0.1.tar.gz"
+    SHA1
+    985bd3005b14120625e3684a8596d499bfc23a48
     )
 
 hunter_cmake_args(acf CMAKE_ARGS 
